@@ -1,20 +1,22 @@
 #include <iostream>
+#include <vector>
+
 using namespace std;
 
-void swap(int arr[], int i , int j){
-    int temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-}
+void swapInt(int* var1, int* var2) {
+    int temp = *var1;
+    *var1 = *var2;
+    *var2 = temp;
+};
 
-int sort(int arr[], int size){
+int sort(vector<int>& arr){
     int ops = 0;
-    for(int i = 0; i < size; i++){
+    for(int i = 0; i < size(arr); i++){
         bool bubble_found = false;
-        for(int j = 0; j < size - i - 1; j++){
+        for(int j = 0; j < size(arr) - i - 1; j++){
             ops++;
             if(arr[j] > arr[j+1]){
-                swap(arr, j, j+1);
+                swapInt(&arr[j], &arr[j+1]);
                 bubble_found = true;
             }
         }
@@ -26,23 +28,23 @@ int sort(int arr[], int size){
 }
 
 int main() {
-    int numbers[15] = {5, 12, 3, 4, 7, 1, 0, 6, 19, 8, 13, 4, 2, 10, 16};
+    vector<int> arr = {5, 12, 3, 4, 7, 1, 0, 6, 19, 8, 13, 4, 2, 10, 16};
     
     cout << "input: ";
-    for(int num: numbers){
+    for(int num: arr){
         cout << num << " ";
     }    
     cout << endl;
 
-    int ops = sort(numbers, size(numbers));
+    int ops = sort(arr);
 
     cout << "No of operations: " << ops << endl;
     cout << "Output: ";
-    for(int num: numbers){
+    for(int num: arr){
         cout << num << " ";
     }    
     cout << endl;
 
-
+    cout << "No of ops: " << ops << endl;
     return 0;
 }
