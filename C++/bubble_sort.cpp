@@ -3,10 +3,10 @@
 
 using namespace std;
 
-void swapInt(int* var1, int* var2) {
-    int temp = *var1;
-    *var1 = *var2;
-    *var2 = temp;
+void swapInt(int& var1, int& var2) {
+    int temp = var1;
+    var1 = var2;
+    var2 = temp;
 };
 
 int sort(vector<int>& arr){
@@ -16,14 +16,13 @@ int sort(vector<int>& arr){
         for(int j = 0; j < size(arr) - i - 1; j++){
             ops++;
             if(arr[j] > arr[j+1]){
-                swapInt(&arr[j], &arr[j+1]);
+                swapInt(arr[j], arr[j+1]);
                 bubble_found = true;
             }
         }
         if (bubble_found == false)
             break;
     }
-
     return ops;
 }
 
@@ -45,6 +44,5 @@ int main() {
     }    
     cout << endl;
 
-    cout << "No of ops: " << ops << endl;
     return 0;
 }
