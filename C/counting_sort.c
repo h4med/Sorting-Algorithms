@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 void displayArray(int* arr, int size) {
     int i = 0;
