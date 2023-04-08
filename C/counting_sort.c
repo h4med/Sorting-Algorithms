@@ -28,12 +28,7 @@ int sort(int* arr, int size) {
     minMaxOfArray(arr, size, &arr_min, &arr_max);
 
     int count_size = arr_max - arr_min + 1;
-    int* count = (int*) malloc(count_size * sizeof(int));
-    // int count_arr[count_arr_size];
-
-    for(i = 0; i < count_size; i++) {
-        count[i] = 0;
-    }
+    int* count = (int*) calloc(count_size, sizeof(int));
 
     for(i = 0; i < size; i++) {
         count[arr[i] - arr_min] ++;
