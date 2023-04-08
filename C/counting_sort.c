@@ -41,8 +41,6 @@ int sort(int* arr, int size) {
         ops++;
     }
 
-    displayArray(count, count_size);
-
     for(i = arr_min; i <= arr_max; i++){
         for (j = 0; j < count[i - arr_min] ; j++) {
             arr[cntr] = i ;
@@ -61,7 +59,6 @@ int main() {
 
     int size = sizeof(numbers)/sizeof(int);
     displayArray(numbers, size);
-
 
     int ops = sort(numbers, size);
     printf("No of operations: %d\n", ops);
