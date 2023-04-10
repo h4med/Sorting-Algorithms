@@ -10,6 +10,6 @@ Direct links to implementations up to know:
 |Counting Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/counting_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C%2B%2B/counting_sort.cpp) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/counting_sort.c)
 |Insertion Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/insertion_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C%2B%2B/insertion_sort.cpp) |[To Do]
 |Merge Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/merge_sort.py) | [To Do] |[To Do]
-|Selection Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/selection_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/selection_sort.cpp) | [To Do] |
+|Selection Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/selection_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C++/selection_sort.cpp) | [To Do] |
 
 
