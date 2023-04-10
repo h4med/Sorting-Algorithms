@@ -4,36 +4,34 @@
 
 using namespace std;
 
-void countingSort(vector<int>& arr) {
+int countingSort(vector<int>& arr) {
 
     int maxVal = *max_element(arr.begin(), arr.end());
     int minVal = *min_element(arr.begin(), arr.end());
     int arr_size = size(arr);
     int range = maxVal - minVal + 1;
-
+    int ops = 0;
     vector<int> count(range, 0);
 
     for (int i = 0; i < arr_size; ++i) {
         count[arr[i] - minVal]++;
+        ops++;
     }
-
-    vector<int> output(arr.size());
 
     int cntr = 0;
     for(int i = minVal; i <= maxVal; i++){
         for (int j = 0; j < count[i - minVal] ; j++) {
-            output[cntr] = i ;
+            arr[cntr] = i ;
             cntr++;
+            ops++;
         }
     } 
 
-    for (int i = 0; i < arr.size(); ++i) {
-        arr[i] = output[i];
-    }
+    return ops;
 }
 
 int main() {
-    vector<int> arr = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
+    vector<int> arr = {5, 12, 3, 4, 7, 1, 0, 6, 19, 8, 13, 4, 2, 10, 16};
 
     cout << "input: ";
     for(int num: arr){
@@ -41,7 +39,8 @@ int main() {
     }    
     cout << endl;
 
-    countingSort(arr);
+    int ops = countingSort(arr);
+    cout << "No of operations: " << ops << endl;
 
     cout << "Output: ";
     for (int i = 0; i < arr.size(); ++i) {
