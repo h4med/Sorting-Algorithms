@@ -1,9 +1,9 @@
-A = [5, 1, 4, 3, 4, 2, 0, 4, 5, 4, 3, 3, 1, 0, 1, 5, 5, 6]
+A = [5, 10, 5, 2, 5, 9, 2, 6, 5, 3, 2]
 m = max(A)
 count = [0] * (m + 1)
 
 n = len(A)
-print("Len: ", n)
+# print("Len: ", n)
 print("Input: ", A)
 
 # print(count)

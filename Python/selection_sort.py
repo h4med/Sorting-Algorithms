@@ -1,8 +1,8 @@
-A = [5, 12, 3, 4, 7, 1, 0, 6, 19, 8, 13, 4, 2, 10, 16]
+A = [5, 10, 5, 2, 5, 9, 2, 6, 5, 3, 2]
 #A = [0, 1, 2, 3, 4, 4, 5, 6, 7, 8, 10, 12, 13, 16, 19]
 A = A[-1::-1]
 n = len(A)
-print(A)
+print("Input:", A)
 
 ops = 0
 for i in range(n):
@@ -13,5 +13,5 @@ for i in range(n):
             index = j
     A[i], A[index] = A[index], A[i]
 
-print(A)
-print(ops)
+print("No of Operations: ", ops)
+print("Output:", A)
