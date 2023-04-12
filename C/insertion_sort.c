@@ -40,3 +40,9 @@ int main() {
 
     return 0;
 }
+/*
+**output**
+[ 5  10  5  2  5  9  2  6  5  3  2 ]
+No of operations: 31
+[ 2  2  2  3  5  5  5  5  6  9  10 ]
+*/
