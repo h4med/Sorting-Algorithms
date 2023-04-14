@@ -49,6 +49,6 @@ def merge(arr, s, m, e):
 
 A=[5, -1, 3, 2, -4, 2, 8, 1, 0, -7, 9, 6, 1, 4]
 
-# print(A)
+print(A)
 A = mergeSort(A, 0, len(A)-1)
-# print(A)
+print(A)
