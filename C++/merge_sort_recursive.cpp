@@ -18,22 +18,18 @@ void merge(vector<int>& arr, int left, int mid, int right) {
 
     int i = 0, j = 0, k = left;
     while (i < n1 && j < n2) {
-        if (leftArr[i] < rightArr[j]) {
+        if (leftArr[i] < rightArr[j])
             arr[k++] = leftArr[i++];
-        } else {
+        else
             arr[k++] = rightArr[j++];
-        }
     }
 
-    while (i < n1) {
+    while (i < n1)
         arr[k++] = leftArr[i++];
-    }
 
-    while (j < n2) {
+    while (j < n2) 
         arr[k++] = rightArr[j++];
-    }
 }
-
 
 void mergeSort(vector<int>& arr, int left, int right) {
     if (left < right) {
@@ -45,7 +41,6 @@ void mergeSort(vector<int>& arr, int left, int right) {
         merge(arr, left, mid, right);
     }
 }
-
 
 int main() {
     vector<int> arr = {5, 12, 3, 4, 7, 1, 0, 6, 19, 8, 13, 4, 2, 10, 16};
