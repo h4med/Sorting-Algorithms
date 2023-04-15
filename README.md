@@ -9,6 +9,6 @@ Direct links to implementations up to know:
 |Bubble Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/bubble_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C%2B%2B/bubble_sort.cpp) |[+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/bubble_sort.c) 
 |Counting Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/counting_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C%2B%2B/counting_sort.cpp) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/counting_sort.c)
 |Insertion Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/insertion_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C%2B%2B/insertion_sort.cpp) |[+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/insertion_sort.c)
-|Merge Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/merge_sort.py) | [To Do] |[+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/merge_sort_recursive.c)
+|Merge Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/merge_sort.py) |[+](https://github.com/h4med/Sorting-Algorithms/blob/main/C++/merge_sort_recursive.cpp)|[+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/merge_sort_recursive.c)
 |Selection Sort | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/selection_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C++/selection_sort.cpp) |[+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/selection_sort.c) |
    
