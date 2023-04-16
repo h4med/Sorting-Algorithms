@@ -1,33 +1,45 @@
-def mergesort(A):
-    # print(f"A: {A}")
-    if len(A) < 2: 
-        return A
-    mid = len(A) // 2
-    print(f"mid: {mid}, len(A): {len(A)}")
-    B = A[:mid]
-    C = A[mid:]
-    print(f"B: {B}, C: {C}") # Remove comment to see running of algorithm
-    B = mergesort(B)
-    print(f"Here! B={B}")
-    C = mergesort(C)
-    print(f"Here! C={C}")
-    i = j = 0
-    A = []
-    while i < len(B) and j < len(C):
-        # print(f"i: {i}, j: {j}")
-        if B[i] <= C[j]:
-            A += [B[i]]
+# Implementation of MergeSort
+def mergeSort(arr, s, e):
+    if e - s + 1 <= 1:
+        return arr
+
+    m = (s + e) // 2
+
+    mergeSort(arr, s, m)
+    mergeSort(arr, m + 1, e)
+
+    merge(arr, s, m, e)
+    
+    return arr
+
+def merge(arr, s, m, e):
+    L = arr[s: m + 1]
+    R = arr[m + 1: e + 1]
+
+    i = 0 # index for L
+    j = 0 # index for R
+    k = s # index for arr
+
+    while i < len(L) and j < len(R):
+        if L[i] <= R[j]:
+            arr[k] = L[i]
             i += 1
         else:
-            A += [C[j]]
+            arr[k] = R[j]
             j += 1
-    A += B[i:] + C[j:]
-    print(f"A: {A}") # Remove comment to see running of algorithm
+        k += 1
 
-    return A
+    while i < len(L):
+        arr[k] = L[i]
+        i += 1
+        k += 1
+    while j < len(R):
+        arr[k] = R[j]
+        j += 1
+        k += 1
 
 A=[5, -1, 3, 2, -4, 2, 8, 1, 0, -7, 9, 6, 1, 4]
 
-# print(A)
-A = mergesort(A)
-# print(A)
+print(A)
+A = mergeSort(A, 0, len(A)-1)
+print(A)
