@@ -30,7 +30,7 @@ int main() {
     vector<int> arr = {5, 12, 3, 4, 7, 1, 0, 6, 19, 8, 13, 4, 2, 10, 16};
 
     cout << "input: ";
-    for(int num: arr){
+    for(auto num: arr){
         cout << num << " ";
     }    
     cout << endl;
@@ -39,10 +39,15 @@ int main() {
     cout << "No of operations: " << ops << endl;
 
     cout << "Output: ";
-    for (int i = 0; i < arr.size(); ++i) {
-        cout << arr[i] << " ";
-    }
+    for(auto num: arr){
+        cout << num << " ";
+    }    
     cout << endl;
 
     return 0;
 }
+/*
+input: 5 12 3 4 7 1 0 6 19 8 13 4 2 10 16 
+No of operations: 105
+Output: 0 1 2 3 4 4 5 6 7 8 10 12 13 16 19 
+*/
