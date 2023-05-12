@@ -1,10 +1,11 @@
 # Sorting Algorithms
-Here I archive my programming practices with writing sorting algorithms in different programming languages.    
+Here I archive my programming practices with writing sorting algorithms in different programming languages.   
+In [VisuAlgo.net](https://visualgo.net/en/sorting) you can find very good visualization and explanation of many sorting algorithms.
 
 ## Table of Contents
-Direct links to implementations up to know:   
+Direct links to implementations up to now:   
     
-| Algorith          | Python | C++ | C |
+| Algorithm         | Python | C++ | C |
 |-------------------|:------:|:---:|:---:|
 |Bubble Sort // [WikiPedia](https://en.wikipedia.org/wiki/Bubble_sort) // [Video](https://www.youtube.com/watch?v=P00xJgWzz2c&list=PL89B61F78B552C1AB&index=2)| [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/bubble_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C%2B%2B/bubble_sort.cpp) |[+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/bubble_sort.c) 
 |Counting Sort // [WikiPedia](https://en.wikipedia.org/wiki/Counting_sort) // [Video](https://www.youtube.com/watch?v=7zuGmKfUt7s)| [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/counting_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C%2B%2B/counting_sort.cpp) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/counting_sort.c)
