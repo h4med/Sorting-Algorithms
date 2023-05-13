@@ -14,3 +14,10 @@ Direct links to implementations up to now:
 |Selection Sort // [WikiPedia](http://en.wikipedia.org/wiki/Selection_sort) // [Video](https://www.youtube.com/watch?v=6nDMgr0-Yyo&index=8&list=PL89B61F78B552C1AB)| [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/selection_sort.py) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C++/selection_sort.cpp) [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C++/selection_sort_2.cpp) |[+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/selection_sort.c) [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/selection_sort_2.c) |
 |Quick Sort // [WikiPedia](https://en.wikipedia.org/wiki/Quicksort) // [Video](https://www.youtube.com/watch?v=y_G9BkAm6B8&index=4&list=PL89B61F78B552C1AB)|[+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/quick_sort.py) [+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/quick_sort_2.py)| [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C++/quick_sort.cpp) | [+](https://github.com/h4med/Sorting-Algorithms/blob/main/C/quick_sort.c)|
 |Heap Sort // [WikiPedia](https://en.wikipedia.org/wiki/Heapsort) // [Video](https://www.youtube.com/watch?v=2DmK_H7IdTo)|[+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/heap_sort.py)| [To Do] |[To Do] |
+
+---
+## Gif
+I found these GIFs from Wikipedia (links above) very intuitive regarding understating each algorithm.
+
+### Bubble Sort
+![Bubble sort algo gif](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
