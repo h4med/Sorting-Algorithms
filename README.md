@@ -16,8 +16,23 @@ Direct links to implementations up to now:
 |Heap Sort // [WikiPedia](https://en.wikipedia.org/wiki/Heapsort) // [Video](https://www.youtube.com/watch?v=2DmK_H7IdTo)|[+](https://github.com/h4med/Sorting-Algorithms/blob/main/Python/heap_sort.py)| [To Do] |[To Do] |
 
 ---
-## Gif
+## Algorithms in GIF
 I found these GIFs from Wikipedia (links above) very intuitive regarding understating each algorithm.
-
+***
 ### Bubble Sort
 ![Bubble sort algo gif](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+***
+### Insertion Sort 
+![Insertion sort algo gif](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+***
+### Merge Sort 
+![Merge sort algo gif](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
+***
+### Selection Sort 
+![Selection sort algo gif](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
+***
+### Quick Sort 
+![Quick sort algo gif](https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif)
+***
+### Heap Sort 
+![Heap sort algo gif](https://upload.wikimedia.org/wikipedia/commons/4/4d/Heapsort-example.gif)
